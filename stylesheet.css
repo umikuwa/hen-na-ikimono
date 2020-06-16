@@ -1,0 +1,109 @@
+header h1{
+  float:left;
+  padding-right: 50px;
+}
+
+header li{
+  list-style:none;
+  float:left;
+  padding:30px 40px;
+  display: inline-block;
+  transition-duration:0.5s;
+  line-height: center;
+}
+
+header li:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+header{
+  background-color:#26d0c9;
+  color:white;
+  position: fixed;
+  top:0px;
+  height:100px;
+  width:100%;
+  opacity:0.8;
+  z-index:10;
+}
+
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  margin-top:100px;
+  height:1000px;
+  background-image:url("https://lh5.googleusercontent.com/ftyL-aabFi1otf7jlCLo5VMhsH-9p-XBO3KbbS1TRmt-AGPpwly0Nn-3dGPOeE6dEI3YbGuhXKZ94wQKpDAlwBUbWrP3XseZonl9NRNr38oG9yBg0Pc=w1280");
+  background-size:cover;
+  text-align: center;
+}
+
+.top-wrapper h1,p{
+  text-align:center;
+  color:#fff;
+}
+
+.top-wrapper h1{
+  padding-top:400px;
+}
+
+.lesson-wrapper{
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:100px;
+  background-color: #FAF0E6;
+}
+
+.lesson-wrapper h1{
+  padding-bottom:30px;
+}
+
+.btn{
+  opacity:0.8;
+  padding:8px 24px;
+  color:white;
+  transition:all 0s;
+  display:inline-block;
+  border-radius: 10%;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.instagram{
+  background-color:#3b5998;
+  margin-top:15px;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+  margin-right:20px;
+}
+
+.footer{
+  background-color:#26d0c9;
+  color:#fff;
+  height:65px;
+}
+
+.footer h2{
+  float:left;
+  font-weight:normal;
+}
+
+.footer ul{
+  list-style:none;
+  float:right;
+}
+
+.contact{
+  font-size:15px;
+}
+
+.mail-address{
+  font-size:15px;
+}
